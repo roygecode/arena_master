@@ -1,0 +1,39 @@
+#wrapper {
+    width: 790px;
+    margin: 0 auto;
+}
+
+#arena {
+    width: 100%;
+    border: 5px solid #ededed;
+    background-color: #000000;
+    background-size: 790px;
+    background-repeat:no-repeat;
+    height: 490px;
+   
+    
+}
+
+#map {
+    width: 350px;
+    margin: 0 auto;
+    vertical-align: middle;
+    color: #ffffff;
+    text-align: center;
+}
+
+#map ul, h1 {
+    margin: 25px;
+}
+#map li {
+    display: inline-block;
+    font-family: sans-serif;
+    background-color: #ffffff;
+    color: #000000;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 5px;
+    width: 60px;
+    
+
+}

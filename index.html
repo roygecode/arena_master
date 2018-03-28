@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Internet Assignment</title>
+    <link rel="stylesheet" type="text/css" href="reset.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <script>
+
+        // function arenaBlack (){
+        //     $("#arena").css("background-image", "null");
+        // }
+
+	    $(document).ready(function(){
+
+            $("li.beach").hover(function(){
+                
+                $("#arena").css({"background-image": "url('img/beach.jpg')", "background-width":"550px"});
+            });
+                
+            $("#arena ul").hover(function(){
+                
+            
+                $("#arena").css("background-image", "");
+            })
+
+            $("li.planet").hover(function(){
+                
+                $("#arena").css({"background-image": "url('img/earth.jpg')"});
+            });
+
+            $("li.dojo").hover(function(){
+                
+                $("#arena").css({"background-image": "url('img/dojo.jpg')"});
+            });
+
+            $("li.forest").hover(function(){
+                
+                $("#arena").css({"background-image": "url('img/forest.jpg')"});
+            });
+
+              $("li.matrix").hover(function(){
+                
+                $("#arena").css({"background-image": "url('img/matrix.jpg')"});
+            });
+
+              $("li.snow").hover(function(){
+                
+                $("#arena").css({"background-image": "url('img/snow.jpg')"});
+            });
+
+
+
+
+
+
+
+
+	    });
+
+    </script>
+
+</head>
+<body>
+    <div id="wrapper">
+        <div id="arena">
+            <div id="map">
+                <h1>Select Arena</h1>
+                <ul>
+                    <li class="beach">beach</li>
+                    <li class="planet">planet</li>
+                    <li class="dojo">dojo</li>
+                    <li class="forest">forest</li>
+                    <li class="matrix">matrix</li>
+                    <li class="snow">snow</li>
+                </ul>
+            </div>
+
+            <!-- <img id="beachImg" src="img/beach.jpg" alt="invalid"/>; -->
+        </div>
+    </div>
+
+
+
+
+</body>
+</html>
